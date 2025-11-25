@@ -7,11 +7,11 @@ public class StudentDemo {
 class Student {
     public String name;
     public int age;
-    public Student(String name, int age){
+    public Student(String name, int age){//parameterized constructor
         this.name = name;
         this.age = age;
     }
-    public Student(){
+    public Student(){//default constructor
         this.name = "none";
         this.age = 67;
     }
